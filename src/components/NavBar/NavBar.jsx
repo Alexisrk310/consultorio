@@ -16,19 +16,19 @@ const NavBar = ({}) => {
 					<Dropdown.Item as={Link} to="/informacion-institucional">
 						Información institucional
 					</Dropdown.Item>
-					<Dropdown.Item>Settings</Dropdown.Item>
+					{/* <Dropdown.Item>Settings</Dropdown.Item>
 					<Dropdown.Item>Earnings</Dropdown.Item>
 					<Dropdown.Divider />
-					<Dropdown.Item>Separated link</Dropdown.Item>
+					<Dropdown.Item>Separated link</Dropdown.Item> */}
 				</Dropdown>
 				<Dropdown label="Servicios" inline>
 					<Dropdown.Item as={Link} to={'/asesores'}>
 						Asesores
 					</Dropdown.Item>
-					<Dropdown.Item>Settings</Dropdown.Item>
+					{/* <Dropdown.Item>Settings</Dropdown.Item>
 					<Dropdown.Item>Earnings</Dropdown.Item>
 					<Dropdown.Divider />
-					<Dropdown.Item>Separated link</Dropdown.Item>
+					<Dropdown.Item>Separated link</Dropdown.Item> */}
 				</Dropdown>
 			</Navbar.Collapse>
 		</Navbar>
