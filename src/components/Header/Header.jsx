@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Navbar } from 'flowbite-react';
 const Header = () => {
 	return (
-		<Navbar rounded>
+		<Navbar rounded className="bg-main">
 			<Navbar.Brand as={Link} href="https://flowbite-react.com">
 				<span className="self-center whitespace-nowrap text-xl font-semibold text-main">
 					CURN

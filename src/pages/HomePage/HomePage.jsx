@@ -54,7 +54,9 @@ const HomePage = ({}) => {
 				/>
 			</div>
 			<div className="flex justify-center my-24">
-				<h1 className="text-lg font-semibold">Informacion Institucional</h1>
+				<h1 className="text-3xl font-bold text-[#00a09a]">
+					Informacion Institucional
+				</h1>
 			</div>
 			<div className="flex justify-center flex-wrap gap-10 mt-24">
 				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">

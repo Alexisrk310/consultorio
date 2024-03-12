@@ -12,18 +12,18 @@ const NavBar = ({}) => {
 			</Navbar.Brand>
 			<Navbar.Toggle />
 			<Navbar.Collapse>
-				<Dropdown label="Servicios" inline>
-					<Dropdown.Item as={Link} to={'/asesores'}>
-						Asesores
+				<Dropdown label="La Corporacion" inline>
+					<Dropdown.Item as={Link} to="/informacion-institucional">
+						Información institucional
 					</Dropdown.Item>
 					<Dropdown.Item>Settings</Dropdown.Item>
 					<Dropdown.Item>Earnings</Dropdown.Item>
 					<Dropdown.Divider />
 					<Dropdown.Item>Separated link</Dropdown.Item>
 				</Dropdown>
-				<Dropdown label="La Corporacion" inline>
-					<Dropdown.Item as={Link} to="/informacion-institucional">
-						Información institucional
+				<Dropdown label="Servicios" inline>
+					<Dropdown.Item as={Link} to={'/asesores'}>
+						Asesores
 					</Dropdown.Item>
 					<Dropdown.Item>Settings</Dropdown.Item>
 					<Dropdown.Item>Earnings</Dropdown.Item>
