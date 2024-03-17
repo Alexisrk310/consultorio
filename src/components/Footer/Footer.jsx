@@ -44,9 +44,9 @@ const Footer = ({}) => {
 					(605)6439499 | Centro Calle de la Soledad N° 5 -70 | Cartagena,
 					Colombia
 				</h2>
-				<h2 className="flex">
+				{/* <h2 className="flex">
 					<IoCall /> (605)3198826 | Cra 54, N° 66-54 | Barranquilla, Colombia
-				</h2>
+				</h2> */}
 
 				<p>
 					Corporación Universitaria Rafael Núñez | Institución Universitaria |

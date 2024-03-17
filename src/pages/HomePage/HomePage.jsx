@@ -58,7 +58,7 @@ const HomePage = ({}) => {
 					Informacion Institucional
 				</h1>
 			</div>
-			<div className="flex justify-center flex-wrap gap-10 mt-24">
+			<div className="flex justify-center flex-wrap gap-10 mt-24 mb-28">
 				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
 					<IoLibrary className="text-7xl text-teal-400" />
 					<p>Biblioteca Miguel Henriquez Castañeda</p>
@@ -85,12 +85,12 @@ const HomePage = ({}) => {
 					<p>Comunicaciones Institucionales</p>
 				</div>
 			</div>
-			<div
+			{/* <div
 				className="w-full h-60 mt-28 blur-[3px] mb-28"
 				style={{
 					backgroundImage:
 						"url('https://tuyyoconstruimos.cartagena.gov.co/sites/default/files/2022-12/Logo%20Rafael%20Nu%C3%B1ez%201.jpeg')",
-				}}></div>
+				}}></div> */}
 		</div>
 	);
 };
