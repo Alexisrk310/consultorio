@@ -5,9 +5,11 @@ import { Footer, Header, NavBar } from '../components';
 const LayoutPublicPage = () => {
 	return (
 		<>
-			<Header />
-			<NavBar />
-			<Outlet />
+			<div className="sm:mx-0 md:mx-24 lg:mx-48 transition">
+				{/* <Header /> */}
+				<NavBar />
+				<Outlet />
+			</div>
 			<Footer />
 		</>
 	);

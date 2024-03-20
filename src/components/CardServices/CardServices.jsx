@@ -3,10 +3,10 @@ import React from 'react';
 import './CardServices.css';
 import { Card } from 'flowbite-react';
 
-const CardServices = ({ img, title, description }) => {
+const CardServices = ({ img, title, description, className }) => {
 	return (
 		<Card
-			className="sm:m-10 md:m-0"
+			className={`text-white card-services ${className}`}
 			imgAlt="Imagenes de consultoria"
 			imgSrc={img}>
 			<h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

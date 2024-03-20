@@ -26,6 +26,7 @@ const HomePage = ({}) => {
 					img="./derecho-humanistico.jpg"
 					title="Consultoría en Recursos Humanos"
 					description="Se especializa en ofrecer servicios relacionados con la gestión del talento, reclutamiento, selección de personal, evaluación del desempeño, capacitación y desarrollo, entre otros."
+					className={'w-min-[212px] w-max-[212px]'}
 				/>
 				<CardServices
 					img="./derecho-humanistico.jpg"

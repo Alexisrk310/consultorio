@@ -8,7 +8,7 @@ const NavBar = ({}) => {
 	return (
 		<Navbar rounded>
 			<Navbar.Brand as={Link} href="/">
-				<img src="./logonew.png" className="w-96" alt="Logo" />
+				<img src="./logonew.png" className="sm:w-48 lg:w-96 w-48" alt="Logo" />
 			</Navbar.Brand>
 			<Navbar.Toggle />
 			<Navbar.Collapse>
