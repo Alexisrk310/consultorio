@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import LayoutPublicPage from '../layout/LayoutPublicPage';
 import { NoFoundPage } from '../components';
-import { HomePage, AdvisorsPage, InformationPage } from '../pages';
+import { HomePage, AdvisorsPage, InformationPage, ContactPage } from '../pages';
 
 export const AppRouter = createBrowserRouter([
 	{
@@ -27,10 +27,10 @@ export const AppRouter = createBrowserRouter([
 						path: '/informacion-institucional',
 						element: <InformationPage />,
 					},
-					// {
-					// 	path: '/about',
-					// 	element: <AboutPage />,
-					// },
+					{
+						path: '/contactanos',
+						element: <ContactPage />,
+					},
 					// {
 					// 	path: '/login',
 					// 	element: <LoginPage />,

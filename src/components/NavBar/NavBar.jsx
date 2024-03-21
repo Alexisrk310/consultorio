@@ -17,9 +17,11 @@ const NavBar = ({}) => {
 						Información institucional
 					</Dropdown.Item>
 					{/* <Dropdown.Item>Settings</Dropdown.Item>
-					<Dropdown.Item>Earnings</Dropdown.Item>
+					<Dropdown.Item>Earnings</Dropdown.Item> */}
 					<Dropdown.Divider />
-					<Dropdown.Item>Separated link</Dropdown.Item> */}
+					<Dropdown.Item as={Link} to={'/contactanos'}>
+						Contactanos
+					</Dropdown.Item>
 				</Dropdown>
 				<Dropdown label="Servicios" inline>
 					<Dropdown.Item as={Link} to={'/asesores'}>
