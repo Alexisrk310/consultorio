@@ -8,6 +8,7 @@ const LayoutPublicPage = () => {
 			<div className="sm:mx-0 md:mx-24 lg:mx-48 transition">
 				{/* <Header /> */}
 				<NavBar />
+
 				<Outlet />
 			</div>
 			<Footer />

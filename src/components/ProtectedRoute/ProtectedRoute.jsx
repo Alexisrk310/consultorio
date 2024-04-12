@@ -1,17 +1,12 @@
 'use client';
 import React from 'react';
 import './ProtectedRoute.css';
-import { Navigate } from 'react-router-dom';
+import { Navigate, Outlet } from 'react-router-dom';
 
 const ProtectedRoute = ({ redirectTo = '/', children }) => {
 	const isAuthenticated = localStorage.getItem('token');
-	!isAuthenticated ? (
-		<>
-			<Navigate to={redirectTo} />
-		</>
-	) : (
-		children
-	);
+	if (!isAuthenticated) return <Navigate to={redirectTo} />;
+	return children ? children : <Outlet />;
 };
 
 export default ProtectedRoute;

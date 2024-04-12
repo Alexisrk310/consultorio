@@ -6,10 +6,10 @@ import './Carousel.css';
 const Carousel = ({}) => {
 	return (
 		<div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-			<Carouse slideInterval={5000}>
+			<Carouse slideInterval={5000} inputMode='classic' showIndicators={false}>
+				{/* <img src="./consultorio.png" alt="consultorio" />
 				<img src="./consultorio.png" alt="consultorio" />
-				<img src="./consultorio.png" alt="consultorio" />
-				<img src="./consultorio.png" alt="consultorio" />
+				<img src="./consultorio.png" alt="consultorio" /> */}
 				<img src="./consultorio.png" alt="consultorio" />
 			</Carouse>
 		</div>

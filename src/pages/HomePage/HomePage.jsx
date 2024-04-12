@@ -1,12 +1,11 @@
 'use client';
 import React from 'react';
 import './HomePage.css';
-import { IoLibrary } from 'react-icons/io5';
-import { ImLibrary } from 'react-icons/im';
-import { BsFillLightbulbFill } from 'react-icons/bs';
 import { FaBookBookmark } from 'react-icons/fa6';
-import { IoMegaphoneSharp } from 'react-icons/io5';
-import { FaCodeBranch } from 'react-icons/fa';
+import { FaBalanceScale } from 'react-icons/fa';
+import { GiToyMallet } from 'react-icons/gi';
+import { HiOutlineLightBulb } from 'react-icons/hi';
+import { GoProjectRoadmap } from 'react-icons/go';
 import { CardServices, Carousel } from '../../components';
 
 const HomePage = ({}) => {
@@ -56,34 +55,26 @@ const HomePage = ({}) => {
 			</div>
 			<div className="flex justify-center my-24">
 				<h1 className="text-3xl font-bold text-[#00a09a]">
-					Informacion Institucional
+					Servicios que ofrecemos
 				</h1>
 			</div>
 			<div className="flex justify-center flex-wrap gap-10 mt-24 mb-28">
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<IoLibrary className="text-7xl text-teal-400" />
-					<p>Biblioteca Miguel Henriquez Castañeda</p>
+				<div className="w-56 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
+					<GiToyMallet className="text-7xl text-teal-400" />
+					<p>Asesorias</p>
 				</div>
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<ImLibrary className="text-7xl text-teal-400" />
-					<p>Consultorios Juridicos y Centro de Conciliacion</p>
+				<div className="w-56 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
+					<FaBalanceScale className="text-7xl text-teal-400" />
+					<p>Consultorias</p>
 				</div>
 
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<BsFillLightbulbFill className="text-7xl text-teal-400" />
-					<p>Centro de Innovacion y Desarrollo Empreserial</p>
+				<div className="w-56 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
+					<HiOutlineLightBulb className="text-7xl text-teal-400" />
+					<p>Emprendimiento e innovación</p>
 				</div>
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<FaBookBookmark className="text-7xl text-teal-400" />
-					<p>Centro de escritura de lectura</p>
-				</div>
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<IoMegaphoneSharp className="text-7xl text-teal-400" />
-					<p>Comunicaciones Institucionales</p>
-				</div>
-				<div className="w-52 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
-					<FaCodeBranch className="text-7xl text-teal-400" />
-					<p>Comunicaciones Institucionales</p>
+				<div className="w-56 flex flex-col items-center justify-center text-center rounded-xl p-4 shadow-2xl">
+					<GoProjectRoadmap className="text-7xl text-teal-400" />
+					<p>Gestión de proyectos</p>
 				</div>
 			</div>
 			{/* <div

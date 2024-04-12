@@ -9,7 +9,7 @@ const ContactPage = ({}) => {
 			<h1 className="text-3xl font-bold text-[#00a09a] text-center">
 				Contactanos
 			</h1>
-			<form className="sm:m-16  bg-slate-50 rounded p-4 *:my-4 ">
+			<form className="sm:m-16 rounded p-4 *:my-4 ">
 				<div className="mb-2 block">
 					<Label htmlFor="name" value="Nombre" />
 				</div>
