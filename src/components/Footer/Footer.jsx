@@ -15,13 +15,14 @@ import { IoLogoGoogleplus } from 'react-icons/io';
 
 const Footer = ({}) => {
 	return (
-		<footer className="flex justify-around items-center text-center flex-wrap bg-[#00a09a]">
+		<footer className="flex justify-around items-center text-center flex-wrap bg-[#00a09a] px-4 py-8">
 			<img
 				src="https://atlas.curn.edu.co/public/web/images/logoestamoscert6.png"
-				className="footer_img"></img>
+				className="footer_img"
+			/>
 			{/* <img src={'./vite.png'} alt="logo" className="footer_img2" /> */}
 
-			<div className="flex flex-col items-center">
+			<div className="flex flex-col items-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
 				<a href="https://curn.edu.co/politicas/politicadatospersonalescurn.html">
 					Política de tratamiento de datos personales
 				</a>
@@ -39,14 +40,16 @@ const Footer = ({}) => {
 					Asuntos y notificaciones judiciales
 				</a>
 
-				<h2 className="flex">
+				<h2 className="flex justify-center items-center">
 					<IoCall />
-					(605)6439499 | Centro Calle de la Soledad N° 5 -70 | Cartagena,
-					Colombia
+					<span className="ml-1">
+						(605)6439499 | Centro Calle de la Soledad N° 5 -70 | Cartagena,
+						Colombia
+					</span>
 				</h2>
 				{/* <h2 className="flex">
-					<IoCall /> (605)3198826 | Cra 54, N° 66-54 | Barranquilla, Colombia
-				</h2> */}
+            <IoCall /> (605)3198826 | Cra 54, N° 66-54 | Barranquilla, Colombia
+        </h2> */}
 
 				<p>
 					Corporación Universitaria Rafael Núñez | Institución Universitaria |
@@ -61,7 +64,7 @@ const Footer = ({}) => {
 					parte del Ministerio de Educación Nacional.
 				</p>
 			</div>
-			<div className="flex flex-col items-center w-52 text-3xl">
+			<div className="flex flex-col items-center w-full md:w-52 text-xs sm:text-sm md:text-3xl lg:text-3xl xl:text-3xl">
 				<div className="flex gap-3">
 					<IoLogoFacebook className="cursor-pointer hover:text-blue-800" />
 					<IoLogoTwitter className="cursor-pointer hover:text-cyan-400" />

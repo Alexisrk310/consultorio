@@ -17,8 +17,6 @@ const NavBar = ({}) => {
 					<Dropdown.Item as={Link} to="/informacion-institucional">
 						Información institucional
 					</Dropdown.Item>
-					{/* <Dropdown.Item>Settings</Dropdown.Item>
-					<Dropdown.Item>Earnings</Dropdown.Item> */}
 				</Dropdown>
 				<Dropdown label="Servicios" inline>
 					<Dropdown.Item as={Link} to={'/asesores'}>
@@ -30,12 +28,12 @@ const NavBar = ({}) => {
 					<Dropdown.Item>Separated link</Dropdown.Item> */}
 				</Dropdown>
 				<Dropdown label="Conocenos" inline>
-					{/* <Dropdown.Item as={Link} to={'/nosotros-somos'}>
+					<Dropdown.Item as={Link} to={'/nosotros-somos'}>
 						Quienes somos?
 					</Dropdown.Item>
 					<Dropdown.Item as={Link} to={'/nosotros-ofrecemos'}>
 						Que es una asesoría?
-					</Dropdown.Item> */}
+					</Dropdown.Item>
 					<Dropdown.Item as={Link} to={'/ubicacion'}>
 						Donde nos encontramos?
 					</Dropdown.Item>
