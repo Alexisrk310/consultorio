@@ -20,10 +20,10 @@ const WhatWeOfferPage = () => {
 				</p>
 			</div>
 			<div class="bg-gradient-to-br from-main to-slate-400 p-8 rounded-lg shadow-lg">
-				<h2 class="text-3xl font-bold text-white mb-4">
+				{/* <h2 class="text-3xl font-bold text-white mb-4">
 					Descubre cómo podemos impulsar tu negocio con el Proyecto Consultorio
 					Empresarial
-				</h2>
+				</h2> */}
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 					<div class="bg-white bg-opacity-50 rounded-lg p-6">
 						<h3 class="text-xl font-semibold text-[#00a09a] mb-2">Asesorías</h3>
@@ -32,17 +32,20 @@ const WhatWeOfferPage = () => {
 							potencial oculto en tus proyectos.
 						</p>
 						<p className="text-right font-light cursor-pointer hover:text-blue-600 mb-0">
-							Tomar servicio
+							Quiero una asesoría
 						</p>
 					</div>
 					<div class="bg-white bg-opacity-50 rounded-lg p-6">
-						<h3 class="text-xl font-semibold text-[#00a09a] mb-2">
+						<h3 class="text-xl font-semibold text-[#00a09a] mb-2 ">
 							Consultorías
 						</h3>
 						<p class="text-gray-800">
 							Sumérgete en un enfoque estratégico diseñado para detectar y
 							resolver obstáculos comerciales, todo dentro del marco del
 							Proyecto Consultorio Empresarial.
+						</p>
+						<p className="text-right font-light cursor-pointer hover:text-blue-600 mb-0">
+							Quiero una consultoría
 						</p>
 					</div>
 					<div class="bg-white bg-opacity-50 rounded-lg p-6">
@@ -54,6 +57,9 @@ const WhatWeOfferPage = () => {
 							mediante soluciones innovadoras ofrecidas por el Proyecto
 							Consultorio Empresarial.
 						</p>
+						<p className="text-right font-light cursor-pointer hover:text-blue-600 mb-0">
+							Quiero usar este servicio
+						</p>
 					</div>
 					<div class="bg-white bg-opacity-50 rounded-lg p-6">
 						<h3 class="text-xl font-semibold text-[#00a09a] mb-2">
@@ -63,6 +69,9 @@ const WhatWeOfferPage = () => {
 							Deja que nuestro equipo experto en gestión de proyectos maneje los
 							detalles operativos, permitiéndote centrarte en tu visión
 							empresarial dentro del Proyecto Consultorio Empresarial.
+						</p>
+						<p className="text-right font-light cursor-pointer hover:text-blue-600 mb-0">
+							Quiero usar este servicio
 						</p>
 					</div>
 				</div>
